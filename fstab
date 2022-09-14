@@ -1,0 +1,5 @@
+                           mount  type           options  backup  fsck
+/dev/sda1                  /boot   xfs           default       0     2
+/dev/sda2                      /  ext4           default       0     1
+/dev/sdb1    /var/lib/postgresql  ext4           default       0     2
+192.168.4.5                /home   nfs  [noexec, nosuid]       0     2
